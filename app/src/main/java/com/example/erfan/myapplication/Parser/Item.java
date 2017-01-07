@@ -13,7 +13,7 @@ public class Item implements Serializable {
     private static final long serialVersionUID = 1L;
     private String title;
     private String mainString;
-    private Image image;
+    private int image;
 
 
     public String getTitle() {
@@ -32,11 +32,11 @@ public class Item implements Serializable {
         this.mainString = mainString;
     }
 
-    public Image getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(Image image) {
+    public void setImage(int image) {
         this.image = image;
     }
 }

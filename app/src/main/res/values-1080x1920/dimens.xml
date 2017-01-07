@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop">60dp</dimen>
+    <dimen name="width">250dp</dimen>
+    <dimen name="height">250dp</dimen>
+    <dimen name="marginTop2">30dp</dimen>
+    <dimen name="height2">50dp</dimen>
+    <dimen name="marginLeft">60dp</dimen>
+    <dimen name="marginRight">60dp</dimen>
+    <dimen name="marginTop3">20dp</dimen>
+    <dimen name="height3">95dp</dimen>
+</resources>
