@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 , R.drawable.image007, R.drawable.image009, R.drawable.image011, R.drawable.image013
                 , R.drawable.image015, R.drawable.image017, R.drawable.image019, R.drawable.image021
                 , R.drawable.image023, R.drawable.image025, R.drawable.image027, R.drawable.image029
-                , R.drawable.image031, R.drawable.image033, R.drawable.image035, R.drawable.image037
+                , R.drawable.image031, R.drawable.image034, R.drawable.image037
                 , R.drawable.image039, R.drawable.image041};
 
         adapter = new RecyclerAdapter();
@@ -110,9 +110,8 @@ public class MainActivity extends AppCompatActivity {
             feed.addItem(item);
             holder.textView.setText(title);
 
-
             Log.e("Position", position + "");
-            Log.e("Position minus 18", position - 18 + "");
+            Log.e("Images", images[position] + "");
             item.setImage(images[position]);
             Glide.with(getApplicationContext()).load(images[position]).into(holder.img);
 

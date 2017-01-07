@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="width">250dp</dimen>
     <dimen name="height">250dp</dimen>
+
+    <dimen name="height3">100dp</dimen>
 </resources>

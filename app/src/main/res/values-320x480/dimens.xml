@@ -8,5 +8,5 @@
     <dimen name="marginLeft">30dp</dimen>
     <dimen name="marginRight">30dp</dimen>
     <dimen name="marginTop3">10dp</dimen>
-    <dimen name="height3">95dp</dimen>
+    <dimen name="height3">60dp</dimen>
 </resources>
