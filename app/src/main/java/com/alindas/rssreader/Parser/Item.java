@@ -1,6 +1,4 @@
-package com.example.erfan.myapplication.Parser;
-
-import android.media.Image;
+package com.alindas.rssreader.Parser;
 
 import java.io.Serializable;
 

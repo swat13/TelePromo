@@ -1,8 +1,7 @@
-package com.example.erfan.myapplication;
+package com.alindas.rssreader;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -15,11 +14,10 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.alindas.rssreader.myapplication.R;
 import com.bumptech.glide.Glide;
-import com.example.erfan.myapplication.Parser.Feed;
-import com.example.erfan.myapplication.Parser.Item;
-
-import java.util.ArrayList;
+import com.alindas.rssreader.Parser.Feed;
+import com.alindas.rssreader.Parser.Item;
 
 public class MainActivity extends AppCompatActivity {
 

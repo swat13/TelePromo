@@ -1,4 +1,4 @@
-package com.example.erfan.myapplication;
+package com.alindas.rssreader.myapplication;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.erfan.myapplication">
+    package="com.alindas.rssreader">
 
     <application
         android:allowBackup="true"
@@ -18,8 +18,40 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".inBindActivity"
-            android:label="@string/title_activity_main2"></activity>
+            android:name=".inBindActivity"/>
+
+
+        <activity
+            android:name="ir.adad.client.AdadActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent"/>
+
+        <meta-data
+            android:name="AdadTestMode"
+            android:value="true"/>
+
+        <meta-data
+            android:name="AdadToken"
+            android:value="24397deafd5f409c9008c885eb741992" />
+
+        <receiver android:name="com.alindas.rssreader.SendByMail">
+            <intent-filter android:priority="9999997" >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".Firebase.MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".Firebase.InstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+
     </application>
 
 </manifest>

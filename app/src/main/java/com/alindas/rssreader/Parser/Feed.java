@@ -1,4 +1,4 @@
-package com.example.erfan.myapplication.Parser;
+package com.alindas.rssreader.Parser;
 
 import java.io.Serializable;
 import java.util.List;

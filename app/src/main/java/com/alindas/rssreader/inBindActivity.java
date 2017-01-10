@@ -1,12 +1,12 @@
-package com.example.erfan.myapplication;
+package com.alindas.rssreader;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.erfan.myapplication.Parser.Item;
-import com.uncopt.android.widget.text.justify.JustifiedTextView;
+import com.alindas.rssreader.Parser.Item;
+import com.alindas.rssreader.myapplication.R;
 
 /**
  * Created by erfan on 1/5/2017.

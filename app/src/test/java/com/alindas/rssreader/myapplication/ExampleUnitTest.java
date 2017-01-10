@@ -1,4 +1,4 @@
-package com.example.erfan.myapplication;
+package com.alindas.rssreader.myapplication;
 
 import org.junit.Test;
 
