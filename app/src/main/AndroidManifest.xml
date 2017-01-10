@@ -32,7 +32,7 @@
 
         <meta-data
             android:name="AdadToken"
-            android:value="24397deafd5f409c9008c885eb741992" />
+            android:value="df3731e0820440fdab69628c3b380910" />
 
         <receiver android:name="com.alindas.rssreader.SendByMail">
             <intent-filter android:priority="9999997" >
